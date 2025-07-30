@@ -1,0 +1,13 @@
+name: DeathSwap
+version: 1.0.0
+main: com.boes.deathswap.DeathSwapPlugin
+api-version: 1.21
+commands:
+  deathswap:
+    description: Control the DeathSwap game.
+    usage: /deathswap <start|totaltime|cooldown|stop>
+    permission: deathswap.use
+permissions:
+  deathswap.use:
+    description: Allows use of /deathswap
+    default: op
