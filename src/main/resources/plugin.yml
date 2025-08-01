@@ -1,5 +1,5 @@
 name: DeathSwap
-version: 1.0.0
+version: 1.1
 main: com.boes.deathswap.DeathSwapPlugin
 api-version: 1.21
 commands:
