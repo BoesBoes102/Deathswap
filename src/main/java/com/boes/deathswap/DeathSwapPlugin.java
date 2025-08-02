@@ -35,7 +35,7 @@ public class DeathSwapPlugin extends JavaPlugin implements Listener {
 
         game = new DeathSwapGame(this);
 
-        // Register the death listener here
+
         Bukkit.getPluginManager().registerEvents(new PlayerDeathListener(game), this);
 
         getLogger().info("DeathSwap plugin enabled.");
